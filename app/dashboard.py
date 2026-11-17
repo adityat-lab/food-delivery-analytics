@@ -70,7 +70,7 @@ with tab3:
                     use_container_width=True)
 
 with tab4:
-    model_path = Path("models/rf_model.joblib")
+    model_path = Path("models/best_model.joblib")
     if not model_path.exists():
         st.info("Train the model first: `python src/model.py`")
     else:
