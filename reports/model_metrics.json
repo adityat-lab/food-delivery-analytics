@@ -1,0 +1,10 @@
+{
+  "Linear Regression": {
+    "MAE": 4.69,
+    "R2": 0.606
+  },
+  "Random Forest": {
+    "MAE": 3.06,
+    "R2": 0.836
+  }
+}

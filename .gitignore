@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+# raw data is large: download from Kaggle instead of committing
+data/raw/*.csv
+data/*.db
+models/*.joblib
